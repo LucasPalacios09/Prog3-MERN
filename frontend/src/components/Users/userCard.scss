@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: 25% 25%;
+
+  padding: 2px;
+  div {
+    // display: flex;
+    // justify-content: flex-end;
+    margin: 4px;
+    button {
+      width: 100%;
+    }
+  }
+}
+.card-hover {
+  &:hover {
+    transform: scale(1.05);
+    transition-duration: 600ms;
+  }
+}
+.card-body-m {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}

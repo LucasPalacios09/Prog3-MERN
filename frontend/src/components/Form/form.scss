@@ -1,0 +1,19 @@
+.form-container {
+  background-color: rgba(0, 0, 0, 0.474);
+  input {
+    color: white;
+    background-color: transparent;
+    height: 20px;
+    font-size: 15px;
+    margin: 10px;
+    border-bottom: 2px solid rgb(0, 153, 255);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+    &:focus {
+      background-color: black;
+      border: 1px solid transparent;
+    }
+  }
+}
