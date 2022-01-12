@@ -10,6 +10,10 @@ export const getUser = async (id) => {
     return await axios.get(`${API}/user/${id}`)
 }
 
+export const getUserByName = async (name) => {
+    return await axios.get(`${API}/user/name/${name}`)
+}
+
 export const createUser = async (user) => {
     return await axios.post(`${API}/user`, user)
 }

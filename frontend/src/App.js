@@ -13,6 +13,8 @@ import GameTable from './components/Games/GameTable'
 
 import 'react-toastify/dist/ReactToastify.css';
 import 'bootswatch/dist/vapor/bootstrap.min.css'
+// import { UserContext } from './user-context';
+import FormLogin from './components/LogIn/formLogIn';
 
 function App() {
   return (
@@ -24,9 +26,11 @@ function App() {
         <Route path="update-user/:id" element={<UserForm />} />
         <Route path="users" element={<Users />} />
         <Route path="game" element={<GameTable />} />
+        <Route path="login" element={<FormLogin />} />
       </Routes>
       <ToastContainer />
     </BrowserRouter>
+
     // <Appcontext>
     //   <Users></Users>
     //   {/* <Navbar></Navbar>
